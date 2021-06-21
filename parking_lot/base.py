@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 class Location:
     def __init__(self, street="street", city="Delhi",
-                 state='Delhi',pincode=110064):
+                 state='Delhi', pincode=110064):
         self._street = street
         self._city = city
         self._state = state
